@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+
+/* body {
+  margin: 0;
+  min-height: 100vh;
+
+  background:
+    radial-gradient(circle at center, #dbeafe 0%, #ffffff 70%);
+
+  background-attachment: fixed;
+} */
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+   background: radial-gradient(
+    circle at center,
+    #c7d2fe 0%,     /* stronger center */
+    #e0f2fe 40%,
+    #ffffff 90%
+  ); 
+/* 
+  background: #833AB4;
+background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 9%, rgba(252, 176, 69, 1) 100%); */
+}
