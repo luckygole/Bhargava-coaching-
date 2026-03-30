@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import Bhargava from "../assets/Bhargava.png";
+import Bhargava from "../assets/logo.png";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -48,14 +48,14 @@ function Navbar() {
                   scrolled ? "text-slate-900" : "text-white"
                 }`}
               >
-                Bhaskar Coaching
+                Bhargava educational 
               </span>
               <span
                 className={`block text-xs tracking-wide ${
                   scrolled ? "text-slate-500" : "text-white/80"
                 }`}
               >
-                Classes
+                academy
               </span>
             </div>
           </a>

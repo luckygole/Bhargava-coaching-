@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import pic from "../assets/pic.jpeg";
+import pic from "../assets/logo.png";
 // import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
@@ -45,11 +45,11 @@ function About() {
             className="space-y-6"
           >
             <h2 className="text-4xl md:text-5xl font-bold text-slate-900">
-              About <span className="text-blue-600">Bhargava Coaching Classes</span>
+              About <span className="text-blue-600">Bhargava Educational Academy</span>
             </h2>
 
             <p className="text-slate-600 text-lg leading-relaxed">
-              Bhaskar Coaching Classes is dedicated to delivering
+              Bhargava Educational Academy is dedicated to delivering
               high-quality, structured, and result-oriented education.
               Our mission is to empower students with strong concepts,
               confidence, and the right mentorship to excel in competitive
@@ -112,31 +112,6 @@ function About() {
           </motion.div>
         ))}
       </div>
-
-      
-
-        {/* STATS SECTION */}
-        {/* <div className="grid md:grid-cols-3 gap-8 mt-24 text-center">
-
-          {[
-            { number: "500+", label: "Students Enrolled" },
-            { number: "95%", label: "Success Rate" },
-            { number: "10+", label: "Years of Excellence" },
-          ].map((stat, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6, delay: index * 0.2 }}
-              viewport={{ once: true }}
-              className="bg-blue-600 text-white p-8 rounded-2xl shadow-xl"
-            >
-              <h3 className="text-3xl font-bold">{stat.number}</h3>
-              <p className="mt-2 text-blue-100">{stat.label}</p>
-            </motion.div>
-          ))}
-
-        </div> */}
 
       </div>
     </section>

@@ -1,146 +1,48 @@
-// function Courses() {
-//   const courses = [
-//     {
-//       title: "JEE Preparation",
-//       desc: "Comprehensive preparation for JEE Main & Advanced with expert faculty.",
-//       duration: "2 Years Program",
-//     },
-//     {
-//       title: "NEET Preparation",
-//       desc: "Structured biology-focused coaching with mock tests & doubt sessions.",
-//       duration: "2 Years Program",
-//     },
-//     {
-//       title: "Board Exam Classes",
-//       desc: "Focused preparation for Class 10th & 12th board examinations.",
-//       duration: "1 Year Program",
-//     },
-//     {
-//       title: "Foundation Course",
-//       desc: "Strong academic foundation for students from Class 8 to 10.",
-//       duration: "1 Year Program",
-//     },
-//     {
-//       title: "JEE Preparation",
-//       desc: "Comprehensive preparation for JEE Main & Advanced with expert faculty.",
-//       duration: "2 Years Program",
-//     },
-//     {
-//       title: "NEET Preparation",
-//       desc: "Structured biology-focused coaching with mock tests & doubt sessions.",
-//       duration: "2 Years Program",
-//     },
-//     {
-//       title: "Board Exam Classes",
-//       desc: "Focused preparation for Class 10th & 12th board examinations.",
-//       duration: "1 Year Program",
-//     },
-//     {
-//       title: "Foundation Course",
-//       desc: "Strong academic foundation for students from Class 8 to 10.",
-//       duration: "1 Year Program",
-//     },
-//   ];
-
-//   return (
-//     <section
-//       id="courses"
-//       className="py-20 px-6 bg-gradient-to-br from-white via-blue-50 to-indigo-100"
-//     >
-//       <div className="max-w-7xl mx-auto text-center">
-
-//         {/* Section Heading */}
-//         <h2 className="text-4xl font-bold text-slate-900">
-//           Our <span className="text-blue-600">Courses</span>
-//         </h2>
-
-//         <p className="mt-4 text-slate-600 max-w-2xl mx-auto">
-//           We offer result-oriented coaching programs designed to help
-//           students achieve excellence in competitive and board examinations.
-//         </p>
-
-//         {/* Cards Grid */}
-//         <div className="mt-16 grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-
-//           {courses.map((course, index) => (
-//             <div
-//               key={index}
-//               className="bg-white rounded-2xl shadow-lg p-6 text-left 
-//               hover:shadow-2xl hover:-translate-y-2 transition duration-300"
-//             >
-//               <h3 className="text-xl font-semibold text-slate-900">
-//                 {course.title}
-//               </h3>
-
-//               <p className="mt-3 text-slate-600 text-sm">
-//                 {course.desc}
-//               </p>
-
-//               <p className="mt-4 text-blue-600 font-medium">
-//                 {course.duration}
-//               </p>
-
-//               <a
-//                 href="#contact"
-//                 className="inline-block mt-6 px-5 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
-//               >
-//                 Enroll Now
-//               </a>
-//             </div>
-//           ))}
-
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
-
-// export default Courses;
-
 import { motion } from "framer-motion";
 
 function Courses() {
-  const courses = [
-    {
-      title: "JEE Preparation",
-      desc: "Comprehensive preparation for JEE Main & Advanced with expert faculty.",
-      duration: "2 Years Program",
-    },
-    {
-      title: "NEET Preparation",
-      desc: "Structured biology-focused coaching with mock tests & doubt sessions.",
-      duration: "2 Years Program",
-    },
-    {
-      title: "Board Exam Classes",
-      desc: "Focused preparation for Class 10th & 12th board examinations.",
-      duration: "1 Year Program",
-    },
-    {
-      title: "Foundation Course",
-      desc: "Strong academic foundation for students from Class 8 to 10.",
-      duration: "1 Year Program",
-    },
-    {
-      title: "JEE Preparation",
-      desc: "Comprehensive preparation for JEE Main & Advanced with expert faculty.",
-      duration: "2 Years Program",
-    },
-    {
-      title: "NEET Preparation",
-      desc: "Structured biology-focused coaching with mock tests & doubt sessions.",
-      duration: "2 Years Program",
-    },
-    {
-      title: "Board Exam Classes",
-      desc: "Focused preparation for Class 10th & 12th board examinations.",
-      duration: "1 Year Program",
-    },
-    {
-      title: "Foundation Course",
-      desc: "Strong academic foundation for students from Class 8 to 10.",
-      duration: "1 Year Program",
-    },
+ const courses = [
+  {
+    title: "Class 6th - 8th Foundation Program",
+    desc: "Build strong fundamentals in mathematics, science, and logical reasoning for middle school students.",
+    duration: "1 Year Program",
+  },
+  {
+    title: "Class 9th Academic Coaching",
+    desc: "Complete subject guidance for Class 9 students with concept-based learning and regular assessments.",
+    duration: "1 Year Program",
+  },
+  {
+    title: "Class 10th Board Preparation",
+    desc: "Comprehensive preparation for Class 10 board exams with mock tests, revision sessions, and doubt solving.",
+    duration: "1 Year Program",
+  },
+  {
+    title: "Class 11th Subject Coaching",
+    desc: "In-depth coaching for Class 11 students focusing on core concepts in science, commerce, and mathematics.",
+    duration: "1 Year Program",
+  },
+  {
+    title: "Class 12th Board Preparation",
+    desc: "Focused coaching for Class 12 board exams with expert faculty, practice papers, and revision strategies.",
+    duration: "1 Year Program",
+  },
+  {
+    title: "Spoken English & Communication Skills",
+    desc: "Enhance spoken English, grammar, and communication confidence through interactive sessions.",
+    duration: "6 Months Program",
+  },
+  {
+    title: "Computer Basics & Digital Skills",
+    desc: "Learn computer fundamentals, MS Office tools, internet usage, and basic digital literacy.",
+    duration: "6 Months Program",
+  },
+  {
+    title: "Crash Course for Board Exams",
+    desc: "Short-term intensive program for quick revision, important topics coverage, and practice test series.",
+    duration: "3-4 Months Program",
+  }
+
   ];
 
   return (

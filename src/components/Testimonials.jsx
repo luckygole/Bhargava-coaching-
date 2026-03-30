@@ -6,12 +6,12 @@ function Testimonials() {
   const testimonials = [
     {
       name: "Rahul Sharma",
-      course: "JEE 2024",
+      course: "12th Boards 2023",
       text: "Bhaskar Coaching Classes helped me build strong concepts and confidence. The mock tests and personal mentorship played a huge role in my success.",
     },
     {
       name: "Anjali Verma",
-      course: "NEET 2023",
+      course: "10th Boards 2023",
       text: "The faculty is extremely supportive and experienced. Regular doubt sessions and structured study plans made my preparation smooth and effective.",
     },
     {

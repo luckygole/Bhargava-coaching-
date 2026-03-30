@@ -54,10 +54,10 @@ function Footer() {
         >
           <h3 className="text-lg font-semibold text-slate-900">Our Courses</h3>
           <ul className="mt-4 space-y-3 text-slate-600">
-            <li>Class 9-10</li>
-            <li>Class 11-12</li>
-            <li>JEE Preparation</li>
-            <li>NEET Preparation</li>
+            <li>8th to 12th</li>
+            <li>10th Boards</li>
+            <li></li>
+            <li>12th Boards</li>
             <li>Board Exams</li>
           </ul>
         </motion.div>
